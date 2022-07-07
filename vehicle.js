@@ -50,7 +50,7 @@ class Vehicle {
         this.started = false;
     }
 
-    typeOfVehicle(wheels) {
+    typeOfVehicle() {
         if (this.numberOfWheels == 8) {
             console.log(this.model + " " + this.make + " is a Truck");
         } else if (this.numberOfWheels == 4) {
